@@ -1,16 +1,12 @@
-📈 Linear Regression: Predicting Marks Based on Study Hours
-A beginner-friendly project that demonstrates how to implement Linear Regression using Python and scikit-learn. The model predicts a student's marks based on hours studied.
+📘✨ Linear Regression: Predicting Marks Based on Study Hours
+A beginner-friendly project demonstrating how to build a Linear Regression model using Python and scikit-learn. It predicts a student’s marks based on the number of hours studied.
 
-🔍 What This Project Does
-Takes in input data: Hours Studied vs. Marks Scored
-
-Splits the data into training and testing sets
-
-Trains a Linear Regression model
-
-Predicts marks for test data
-
-Evaluates model performance using:
+🔍💡 What This Project Does
+✅ Takes in input data: Hours Studied vs. Marks Scored
+✅ Splits the data into training and testing sets
+✅ Trains a Linear Regression model
+✅ Predicts marks for test data
+✅ Evaluates model performance using:
 
 📊 R² Score
 
@@ -18,80 +14,49 @@ Evaluates model performance using:
 
 ⚙️ Mean Squared Error (MSE)
 
-Visualizes:
+✅ Visualizes the results:
 
-📉 Actual values (scatter plot)
+🎯 Actual values (scatter plot)
 
-📈 Regression line (predicted)
+📈 Predicted values (regression line)
 
-🛠 Technologies Used
-Python 3
+🛠️🧰 Technologies Used
+🐍 Python 3
+🔢 NumPy
+📊 Matplotlib
+📚 scikit-learn
 
-NumPy
+🧪 Jupyter Notebook
 
-Matplotlib
+💻 VS Code
 
-scikit-learn
+☁️ Google Colab
 
-📁 Files
-File Name	Description
-main.py / notebook.ipynb	Contains the complete code (training + testing)
-README.md	You’re reading it!
+📊🖼️ Sample Visualization
+🟦 Scatter plot – Actual test values
+🔴 Red line – Predicted regression line by the model
 
-▶️ How to Run
-Clone this repository:
+🤓📚 What I Learned
+📌 How Linear Regression works in ML
 
-bash
-Copy
-Edit
-git clone https://github.com/devansh2604/marks-prediction.git
-cd marks-prediction
-Open the project in any Python environment:
+📌 The meaning of R² Score, Correlation, and MSE
 
-Jupyter Notebook
+📌 How to visualize predictions using matplotlib
 
-VS Code
+📌 How to split data for training and testing
 
-Google Colab
+🚀🔮 Future Improvements
+📂 Load data from an external CSV file
 
-📊 Sample Visualization
-🟦 Scatter plot – actual test values
-🔴 Red line – predicted regression line by the model
+📐 Add RMSE and MAE as evaluation metrics
 
-(Upload the plot image here or link to it from your repo)
+📈 Implement Polynomial Regression
 
-🧪 Sample Output
-yaml
-Copy
-Edit
-X_test: [[2], [1]]
-Y_test: [4, 2]
-Y_pred: [4.0, 2.0]
-Correlation: 1.0
-R² Score: 1.0
-MSE: 0.0
-🤓 What I Learned
-How Linear Regression works in machine learning
+🌐 Deploy as a web app using Flask or Streamlit
 
-Understanding of R² Score, Correlation, and MSE
+📬👤 Contact
+👨‍💻 Devansh Sharma
+🔧 GitHub Username: devansh2604
 
-How to plot predictions using matplotlib
-
-Splitting data for training vs. testing
-
-🚀 Future Improvements
-Load data from an external CSV file
-
-Add RMSE and MAE as additional evaluation metrics
-
-Try Polynomial Regression
-
-Deploy it as a web app using Flask or Streamlit
-
-📬 Contact
-Devansh Sharma
-GitHub: @devansh2604
-
-⭐ Like this project?
-If you found this helpful, please ⭐️ the repository on GitHub. It motivates me to create more such projects!
-
+⭐🌟 Like This Project?
+If you found this helpful, give it a star ⭐ on GitHub — it motivates me to build more!
